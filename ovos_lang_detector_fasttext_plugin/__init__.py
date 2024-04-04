@@ -2,6 +2,7 @@ from ovos_plugin_manager.templates.language import LanguageDetector
 from langcodes import standardize_tag
 from ovos_plugin_manager.templates.language import LanguageDetector
 from huggingface_hub import hf_hub_download
+import fasttext
 
 
 class FastTextLangDetectPlugin(LanguageDetector):
