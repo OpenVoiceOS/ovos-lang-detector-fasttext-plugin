@@ -1,8 +1,9 @@
-from ovos_plugin_manager.templates.language import LanguageDetector
+import fasttext
+from huggingface_hub import hf_hub_download
 from langcodes import standardize_tag
 from ovos_plugin_manager.templates.language import LanguageDetector
-from huggingface_hub import hf_hub_download
-import fasttext
+from ovos_plugin_manager.templates.language import LanguageDetector
+from ovos_utils import classproperty
 
 
 class FastTextLangDetectPlugin(LanguageDetector):
@@ -22,6 +23,18 @@ class FastTextLangDetectPlugin(LanguageDetector):
         return {
             standardize_tag(l.split("__label__")[-1]): p
             for l, p in zip(labels, probs)}
+
+    @classproperty
+    def available_languages(cls):
+        """
+        Return languages supported by this detector implementation in this state.
+        This should be a set of languages this detector is capable of recognizing.
+        This property should be overridden by the derived class to advertise
+        what languages that engine supports.
+        Returns:
+            Set[str]: A set of language codes supported by this detector.
+        """
+        return set()  # TODO
 
 
 if __name__ == "__main__":
