@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.1a1) (2025-06-08)
+## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.2a1) (2025-11-22)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.0...0.1.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.1...0.1.2a1)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#2](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/2) ([JarbasAl](https://github.com/JarbasAl))
+- Update requirements.txt [\#4](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/4) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
