@@ -26,7 +26,7 @@ test = [
 [project.urls]
 Homepage = "https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin"
 
-[project.entry-points."neon.plugin.lang.detect"]
+[project.entry-points."opm.lang.detect"]
 "ovos-lang-detector-fasttext-plugin" = "ovos_lang_detector_fasttext_plugin:FastTextLangDetectPlugin"
 
 [tool.setuptools.dynamic]
