@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-lang-detector-fasttext-plugin"
+dynamic = ["version"]
+description = "average plugin classifications for language detection"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "JarbasAi", email = "jarbasai@mailfence.com"}
+]
+dependencies = [
+    "fasttext",
+    "huggingface_hub",
+    "langcodes",
+    "ovos-plugin-manager>=1.0.0,<3.0.0"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0,<9"
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin"
+
+[project.entry-points."neon.plugin.lang.detect"]
+"ovos-lang-detector-fasttext-plugin" = "ovos_lang_detector_fasttext_plugin:FastTextLangDetectPlugin"
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_lang_detector_fasttext_plugin.version.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ovos_lang_detector_fasttext_plugin*"]
