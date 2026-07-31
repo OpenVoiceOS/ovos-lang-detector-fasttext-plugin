@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a4](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a4) (2026-07-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a3...0.1.3a4)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#20](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/20) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.3a3](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a3) (2026-06-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.2...0.1.3a3)
