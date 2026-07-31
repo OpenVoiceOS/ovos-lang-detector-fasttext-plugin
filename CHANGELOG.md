@@ -1,44 +1,20 @@
 # Changelog
 
-## [0.1.2a5](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.2a5) (2026-03-04)
+## [0.1.3a4](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a4) (2026-07-31)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.2a4...0.1.2a5)
-
-**Merged pull requests:**
-
-- chore\(deps\): update actions/checkout action to v6 [\#8](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
-
-## [0.1.2a4](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.2a4) (2025-12-19)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.2a3...0.1.2a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a3...0.1.3a4)
 
 **Merged pull requests:**
 
-- chore\(deps\): update dependency python to 3.14 [\#7](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
+- docs: rewrite README in Simplified Technical English [\#20](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/20) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.1.2a3](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.2a3) (2025-12-19)
+## [0.1.3a3](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a3) (2026-06-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.2a2...0.1.2a3)
-
-**Merged pull requests:**
-
-- chore\(deps\): update actions/setup-python action to v6 [\#11](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
-
-## [0.1.2a2](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.2a2) (2025-12-18)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.2a1...0.1.2a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.2...0.1.3a3)
 
 **Merged pull requests:**
 
-- chore: Configure Renovate [\#6](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
-
-## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.2a1) (2025-11-22)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.1...0.1.2a1)
-
-**Merged pull requests:**
-
-- Update requirements.txt [\#4](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/4) ([JarbasAl](https://github.com/JarbasAl))
+- chore: add missing shared CI workflows [\#15](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/15) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
