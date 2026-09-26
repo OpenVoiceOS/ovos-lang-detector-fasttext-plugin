@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a7](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a7) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a6...0.1.3a7)
+
+**Merged pull requests:**
+
+- Update dependency pytest to v9 [\#16](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.1.3a6](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a6) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a5...0.1.3a6)
