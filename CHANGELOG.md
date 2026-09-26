@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a5](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a5) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a4...0.1.3a5)
+
+**Merged pull requests:**
+
+- chore\(ci\): drop the broken Dependabot config [\#22](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/22) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.1.3a4](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a4) (2026-07-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a3...0.1.3a4)
