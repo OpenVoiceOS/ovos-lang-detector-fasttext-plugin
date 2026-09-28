@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a8](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a8) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a7...0.1.3a8)
+
+**Merged pull requests:**
+
+- ci: replace the set-output command GitHub removed [\#23](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/pull/23) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.1.3a7](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/tree/0.1.3a7) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-lang-detector-fasttext-plugin/compare/0.1.3a6...0.1.3a7)
