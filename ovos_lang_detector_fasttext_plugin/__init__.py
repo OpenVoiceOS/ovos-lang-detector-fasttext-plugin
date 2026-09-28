@@ -1,9 +1,13 @@
-import fasttext
-from huggingface_hub import hf_hub_download
 from langcodes import standardize_tag
 from ovos_plugin_manager.templates.language import LanguageDetector
-from ovos_plugin_manager.templates.language import LanguageDetector
 from ovos_utils import classproperty
+
+# NOTE: `fasttext` is a compiled extension and `huggingface_hub` reaches the
+# network, and neither is needed to define the class. OPM imports every
+# installed plugin class at startup, so an import here is paid by every
+# process that loads plugins, whether or not this detector is the configured
+# one. They are imported inside __init__ instead, where the model is actually
+# loaded.
 
 
 class FastTextLangDetectPlugin(LanguageDetector):
@@ -11,6 +15,8 @@ class FastTextLangDetectPlugin(LanguageDetector):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        import fasttext
+        from huggingface_hub import hf_hub_download
         model_path = hf_hub_download(repo_id="facebook/fasttext-language-identification", filename="model.bin")
         self.lid = fasttext.load_model(model_path)
 
@@ -21,8 +27,8 @@ class FastTextLangDetectPlugin(LanguageDetector):
     def detect_probs(self, text):
         labels, probs = self.lid.predict(text, k=5)
         return {
-            standardize_tag(l.split("__label__")[-1]): p
-            for l, p in zip(labels, probs)}
+            standardize_tag(label.split("__label__")[-1]): p
+            for label, p in zip(labels, probs)}
 
     @classproperty
     def available_languages(cls):
